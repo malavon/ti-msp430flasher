@@ -1,10 +1,11 @@
 MSP430 Flasher - Command Line programmer (http://www.ti.com/tool/msp430-flasher)
+
 For usage instructions please see SLAU654 (http://www.ti.com/lit/pdf/slau654)
 
 Known Limiations:
 =================
 - ERASE_SEGMENT is not supported on Linux.
-    WORKAROUND: Rebuild Flasher binary with GCC version >= 4.9
+  - WORKAROUND: Rebuild Flasher binary with GCC version >= 4.9
 
 Change Log:
 ===========
@@ -109,7 +110,7 @@ v1.3.3 November 21, 2014
 v1.3.2 September 3, 2014
 ------------------------
 - Updated Flasher packages with MSP Debug Stack v3.4.2.7
-- Enhanced –r switch to cover read-out of custom memory ranges
+- Enhanced ï¿½r switch to cover read-out of custom memory ranges
 - Target device name switch (-n) is now optional. User prompt in case of mismatch
 - Fixed segment erase for memory segments in high memory (>0xFFFF)
 
